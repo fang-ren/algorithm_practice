@@ -1,6 +1,8 @@
-# pool = {O:[C,A,S], C:[O,A,S,H,T],  }
+"""
+author: Fang Ren (SSRL)
 
-# def main(matrix, ...)
+3/14/2017
+"""
 
 matrix = [['O', 'C', 'H'], ['A', 'S', 'T'], ['T', 'R', 'Q']]
 
