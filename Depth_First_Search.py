@@ -26,4 +26,5 @@ def DFS(source, graph):
             DFS(neighbor, graph)
     return map
 
-DFS(source, graph)
+map = DFS(source, graph)
+print map
