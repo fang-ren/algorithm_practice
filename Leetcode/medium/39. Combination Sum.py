@@ -12,18 +12,12 @@ class Solution(object):
         :type target: int
         :rtype: List[List[int]]
         """
-        if target < min(candidates):
-            return
-        if target == min(candidates):
-            return [target]
         ans = []
         for candidate in candidates:
             new_target = target - candidate
-            if target > 0:
-                ans.append([candidate]+ self.combinationSum(candidates, new_target))
-        return ans
+            ans.append([candidate] + self.combinationSum(candidates, new_target))
 
 solution= Solution()
-nums = [2,3,6,7]
+nums = [7,6,3,2]
 target = 7
 print solution.combinationSum(nums, target)
