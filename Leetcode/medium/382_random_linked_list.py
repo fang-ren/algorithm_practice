@@ -22,9 +22,8 @@ class Solution(object):
         self.head = head
 
     def getRandom(self):
-        import random
         """
-        Returns a random node's value.
+        Returns a random_code node's value.
         :rtype: int
         """
         current = self.head.next
